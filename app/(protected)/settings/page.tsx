@@ -66,7 +66,7 @@ export default function SettingsPage() {
           
           {!canManageRoles && (
             <p className="text-sm text-muted-foreground mt-6">
-              Note: You need the "Manage Roles" permission to modify roles and permissions.
+              Note: You need the &quot;Manage Roles&quot; permission to modify roles and permissions.
             </p>
           )}
         </CardContent>
