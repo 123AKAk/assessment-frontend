@@ -1,13 +1,13 @@
-import "./globals.css";
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import { Providers } from "./providers";
+import './globals.css';
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import { Providers } from '@/components/providers';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "User Management System",
-  description: "A modern user management system with role-based permissions",
+  title: 'Admin Dashboard',
+  description: 'User management admin dashboard',
 };
 
 export default function RootLayout({
